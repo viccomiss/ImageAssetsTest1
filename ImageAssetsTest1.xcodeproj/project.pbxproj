@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C98A93723273EEA0012E7EA /* ImageAssetsTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C98A93623273EEA0012E7EA /* ImageAssetsTest1.m */; };
+		8C98A93823273EEA0012E7EA /* ImageAssetsTest1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C98A93523273EEA0012E7EA /* ImageAssetsTest1.h */; };
+		8C98A955232742280012E7EA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C98A954232742280012E7EA /* Media.xcassets */; };
+		8C98A958232743E40012E7EA /* ImageAssetsTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C98A957232743E40012E7EA /* ImageAssetsTest1ViewController.m */; };
+		8C98A97223274E2D0012E7EA /* ImageAssetsTest1ViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C98A956232743E40012E7EA /* ImageAssetsTest1ViewController.h */; };
+		8C98A97523277D2F0012E7EA /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C98A97423277D2F0012E7EA /* UIImage+Extension.m */; };
+		8C98A97623277EDE0012E7EA /* UIImage+Extension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C98A97323277D2F0012E7EA /* UIImage+Extension.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C98A93023273EEA0012E7EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8C98A97623277EDE0012E7EA /* UIImage+Extension.h in CopyFiles */,
+				8C98A97223274E2D0012E7EA /* ImageAssetsTest1ViewController.h in CopyFiles */,
+				8C98A93823273EEA0012E7EA /* ImageAssetsTest1.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C98A93223273EEA0012E7EA /* libImageAssetsTest1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libImageAssetsTest1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C98A93523273EEA0012E7EA /* ImageAssetsTest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageAssetsTest1.h; sourceTree = "<group>"; };
+		8C98A93623273EEA0012E7EA /* ImageAssetsTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageAssetsTest1.m; sourceTree = "<group>"; };
+		8C98A94E232742140012E7EA /* ImageAssetsBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageAssetsBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C98A950232742140012E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C98A954232742280012E7EA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8C98A956232743E40012E7EA /* ImageAssetsTest1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageAssetsTest1ViewController.h; sourceTree = "<group>"; };
+		8C98A957232743E40012E7EA /* ImageAssetsTest1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageAssetsTest1ViewController.m; sourceTree = "<group>"; };
+		8C98A97323277D2F0012E7EA /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		8C98A97423277D2F0012E7EA /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C98A92F23273EEA0012E7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C98A94B232742140012E7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C98A92923273EEA0012E7EA = {
+			isa = PBXGroup;
+			children = (
+				8C98A93423273EEA0012E7EA /* ImageAssetsTest1 */,
+				8C98A94F232742140012E7EA /* ImageAssetsBundle */,
+				8C98A93323273EEA0012E7EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C98A93323273EEA0012E7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C98A93223273EEA0012E7EA /* libImageAssetsTest1.a */,
+				8C98A94E232742140012E7EA /* ImageAssetsBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C98A93423273EEA0012E7EA /* ImageAssetsTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				8C98A93523273EEA0012E7EA /* ImageAssetsTest1.h */,
+				8C98A93623273EEA0012E7EA /* ImageAssetsTest1.m */,
+				8C98A956232743E40012E7EA /* ImageAssetsTest1ViewController.h */,
+				8C98A957232743E40012E7EA /* ImageAssetsTest1ViewController.m */,
+				8C98A97323277D2F0012E7EA /* UIImage+Extension.h */,
+				8C98A97423277D2F0012E7EA /* UIImage+Extension.m */,
+			);
+			path = ImageAssetsTest1;
+			sourceTree = "<group>";
+		};
+		8C98A94F232742140012E7EA /* ImageAssetsBundle */ = {
+			isa = PBXGroup;
+			children = (
+				8C98A950232742140012E7EA /* Info.plist */,
+				8C98A954232742280012E7EA /* Media.xcassets */,
+			);
+			path = ImageAssetsBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C98A93123273EEA0012E7EA /* ImageAssetsTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C98A93B23273EEA0012E7EA /* Build configuration list for PBXNativeTarget "ImageAssetsTest1" */;
+			buildPhases = (
+				8C98A92E23273EEA0012E7EA /* Sources */,
+				8C98A92F23273EEA0012E7EA /* Frameworks */,
+				8C98A93023273EEA0012E7EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageAssetsTest1;
+			productName = ImageAssetsTest1;
+			productReference = 8C98A93223273EEA0012E7EA /* libImageAssetsTest1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C98A94D232742140012E7EA /* ImageAssetsBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C98A951232742140012E7EA /* Build configuration list for PBXNativeTarget "ImageAssetsBundle" */;
+			buildPhases = (
+				8C98A94A232742140012E7EA /* Sources */,
+				8C98A94B232742140012E7EA /* Frameworks */,
+				8C98A94C232742140012E7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageAssetsBundle;
+			productName = ImageAssetsBundle;
+			productReference = 8C98A94E232742140012E7EA /* ImageAssetsBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C98A92A23273EEA0012E7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yangming;
+				TargetAttributes = {
+					8C98A93123273EEA0012E7EA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8C98A94D232742140012E7EA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C98A92D23273EEA0012E7EA /* Build configuration list for PBXProject "ImageAssetsTest1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C98A92923273EEA0012E7EA;
+			productRefGroup = 8C98A93323273EEA0012E7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C98A93123273EEA0012E7EA /* ImageAssetsTest1 */,
+				8C98A94D232742140012E7EA /* ImageAssetsBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C98A94C232742140012E7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C98A955232742280012E7EA /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C98A92E23273EEA0012E7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C98A97523277D2F0012E7EA /* UIImage+Extension.m in Sources */,
+				8C98A958232743E40012E7EA /* ImageAssetsTest1ViewController.m in Sources */,
+				8C98A93723273EEA0012E7EA /* ImageAssetsTest1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C98A94A232742140012E7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C98A93923273EEA0012E7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C98A93A23273EEA0012E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C98A93C23273EEA0012E7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59EBMS5P2D;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C98A93D23273EEA0012E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59EBMS5P2D;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C98A952232742140012E7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59EBMS5P2D;
+				INFOPLIST_FILE = ImageAssetsBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = www.cmb.com.ImageAssetsBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8C98A953232742140012E7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 59EBMS5P2D;
+				INFOPLIST_FILE = ImageAssetsBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = www.cmb.com.ImageAssetsBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C98A92D23273EEA0012E7EA /* Build configuration list for PBXProject "ImageAssetsTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C98A93923273EEA0012E7EA /* Debug */,
+				8C98A93A23273EEA0012E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C98A93B23273EEA0012E7EA /* Build configuration list for PBXNativeTarget "ImageAssetsTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C98A93C23273EEA0012E7EA /* Debug */,
+				8C98A93D23273EEA0012E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C98A951232742140012E7EA /* Build configuration list for PBXNativeTarget "ImageAssetsBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C98A952232742140012E7EA /* Debug */,
+				8C98A953232742140012E7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C98A92A23273EEA0012E7EA /* Project object */;
+}
